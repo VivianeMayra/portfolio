@@ -13,45 +13,45 @@ export function Projects() {
       >
         Projetos
       </Text>
-      <SimpleGrid columns={3} spacing={10}>
+      <SimpleGrid columns={[1, null, 3]} spacing={10}>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217, 217, 217, 0.11)"
           height="150px"
         ></Box>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217,217,217,0.11)"
           height="150px"
         ></Box>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217,217,217,0.11)"
           height="150px"
         ></Box>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217,217,217,0.11)"
           height="150px"
         ></Box>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217,217,217,0.11)"
           height="150px"
         ></Box>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217,217,217,0.11)"
           height="150px"
         ></Box>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217,217,217,0.11)"
           height="150px"
         ></Box>
         <Box
           borderRadius="10px"
-          bg="rgba(217,217,217,0.07)"
+          bg="rgba(217,217,217,0.11)"
           height="150px"
         ></Box>
       </SimpleGrid>

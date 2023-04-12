@@ -11,7 +11,7 @@ export function Skills() {
     },
   })
   return (
-    <Box marginTop="10rem" id="skills">
+    <Box marginTop="5rem" id="skills">
       <Text
         fontFamily="Inter"
         fontStyle="normal"
@@ -29,29 +29,11 @@ export function Skills() {
         ref={sliderRef}
         className="keen-slider"
       >
-        <Center
-          h="200px"
-          bg="gray.50"
-          borderRadius="10px"
-          className="keen-slider__slide"
-        >
-          <Image
-            width="50%"
-            height="100%"
-            src="https://logospng.org/download/html-5/logo-html-5-2048.png"
-          />
+        <Center bg="gray.50" borderRadius="10px" className="keen-slider__slide">
+          <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
         </Center>
-        <Center
-          h="200px"
-          bg="gray.50"
-          borderRadius="10px"
-          className="keen-slider__slide"
-        >
-          <Image
-            width="50%"
-            height="100%"
-            src="https://logospng.org/download/css-3/logo-css-3-1536.png"
-          />
+        <Center bg="gray.50" borderRadius="10px" className="keen-slider__slide">
+          <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
         </Center>
         <Center
           h="200px"

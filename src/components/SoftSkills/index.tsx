@@ -1,8 +1,8 @@
-import { Box, Flex, Text } from "@chakra-ui/react"
+import { Box, Text } from "@chakra-ui/react"
 
 export function SoftSkills() {
   return (
-    <Box marginTop="5rem">
+    <Box>
       <Box>
         <Text
           fontFamily="Inter"
@@ -25,7 +25,12 @@ export function SoftSkills() {
           é um bom sinal e que busca saber mais sobre mim ^^
         </Text>
       </Box>
-      <Box marginTop="5rem" display="flex" gap="3rem">
+      <Box
+        marginTop="5rem"
+        display="flex"
+        flexDirection={{ base: "column", md: "row" }}
+        gap="3rem"
+      >
         <Box bg="rgba(217, 217, 217, 0.11)" padding="35px" borderRadius="10px">
           <Text
             fontFamily="Inter"

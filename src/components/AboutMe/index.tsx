@@ -4,8 +4,10 @@ export function AboutMe() {
   return (
     <Box
       display="flex"
-      marginTop="10rem"
-      gap="123px"
+      flexDirection={{ base: "column", md: "row" }}
+      alignItems="center"
+      marginTop="5rem"
+      gap="100px"
       maxHeight="60%"
       id="aboutme"
     >

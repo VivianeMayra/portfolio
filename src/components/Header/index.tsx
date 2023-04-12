@@ -2,7 +2,12 @@ import { Box, Link, Text } from "@chakra-ui/react"
 
 export function Header() {
   return (
-    <Box display="flex" alignItems="center" justifyContent="space-between">
+    <Box
+      display="flex"
+      flexDirection={{ base: "column", md: "row" }}
+      alignItems="center"
+      justifyContent="space-between"
+    >
       <Box display="flex" alignItems="center" gap="15px">
         <Text
           color="others.color-light"

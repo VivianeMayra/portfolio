@@ -8,7 +8,15 @@ import { SoftSkills } from "./components/SoftSkills"
 
 export function App() {
   return (
-    <Box display="flex" flexDirection="column" margin="2rem 5rem">
+    <Box
+      display="flex"
+      flexDirection="column"
+      gap={{ base: "100px", md: "0" }}
+      mt={55}
+      mb={55}
+      ml={15}
+      maxW="95%"
+    >
       <Header />
       <Main />
       <AboutMe />

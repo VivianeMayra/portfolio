@@ -2,19 +2,28 @@ import { Box, Button, Code, Link, Stack, Text } from "@chakra-ui/react"
 
 export function Main() {
   return (
-    <Box display="flex" marginTop="2.5rem">
-      <Box maxWidth="65%">
+    <Box
+      display="flex"
+      marginTop="2rem"
+      flexDirection={{ base: "column", md: "row" }}
+    >
+      <Box maxWidth={{ base: "100%", md: "65%" }}>
         <Text
           fontFamily="Inter"
           fontStyle="normal"
           fontWeight="700"
-          fontSize="70px"
+          fontSize="65px"
           lineHeight="85px"
           color="others.color-light"
         >
           Olá, me chamo Viviane. Uma Desenvolvedora Front-end{" "}
         </Text>
-        <Box marginTop="2rem" display="flex" gap="50px">
+        <Box
+          marginTop="2rem"
+          display="flex"
+          gap="85px"
+          marginBottom={{ base: "5rem", md: "0" }}
+        >
           <Link
             href="https://www.linkedin.com/in/viviane-mayra-a87a49237/"
             isExternal
