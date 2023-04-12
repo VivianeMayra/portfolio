@@ -29,7 +29,7 @@ export function Main() {
         </Box>
       </Box>
       <Box
-        bg="rgba(217,217,217,0.07)"
+        bg="rgba(217, 217, 217, 0.11)"
         w="100%"
         p={4}
         color="white"

@@ -11,7 +11,7 @@ export function Skills() {
     },
   })
   return (
-    <Box marginTop="4rem" id="skills">
+    <Box marginTop="10rem" id="skills">
       <Text
         fontFamily="Inter"
         fontStyle="normal"

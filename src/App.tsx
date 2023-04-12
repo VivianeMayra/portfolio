@@ -3,6 +3,8 @@ import { Header } from "./components/Header"
 import { Main } from "./components/Main"
 import { AboutMe } from "./components/AboutMe"
 import { Skills } from "./components/Skills"
+import { Projects } from "./components/Projects"
+import { SoftSkills } from "./components/SoftSkills"
 
 export function App() {
   return (
@@ -11,6 +13,8 @@ export function App() {
       <Main />
       <AboutMe />
       <Skills />
+      <Projects />
+      <SoftSkills />
     </Box>
   )
 }
