@@ -1,4 +1,5 @@
 import { Box, Button, Code, Link, Stack, Text } from "@chakra-ui/react"
+import curriculo from "../../assets/curriculo.pdf"
 
 export function Main() {
   return (
@@ -32,9 +33,11 @@ export function Main() {
               Linkedin
             </Button>
           </Link>
-          <Button colorScheme="blue" padding="15px 40px">
-            Currículo
-          </Button>
+          <a href={curriculo} download="Curriculo" target="_blanck">
+            <Button colorScheme="blue" padding="15px 40px">
+              Currículo
+            </Button>
+          </a>
         </Box>
       </Box>
       <Box

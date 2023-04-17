@@ -1,5 +1,4 @@
-import { Box, Center, Text } from "@chakra-ui/react"
-import { Image } from "@chakra-ui/react"
+import { Box, Center, Text, Image } from "@chakra-ui/react"
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 
@@ -29,11 +28,29 @@ export function Skills() {
         ref={sliderRef}
         className="keen-slider"
       >
-        <Center bg="gray.50" borderRadius="10px" className="keen-slider__slide">
-          <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+        <Center
+          h="200px"
+          bg="gray.50"
+          borderRadius="10px"
+          className="keen-slider__slide"
+        >
+          <Image
+            width="50%"
+            height="100%"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+          />
         </Center>
-        <Center bg="gray.50" borderRadius="10px" className="keen-slider__slide">
-          <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+        <Center
+          h="200px"
+          bg="gray.50"
+          borderRadius="10px"
+          className="keen-slider__slide"
+        >
+          <Image
+            width="50%"
+            height="100%"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+          />
         </Center>
         <Center
           h="200px"

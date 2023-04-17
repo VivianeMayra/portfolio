@@ -2,7 +2,7 @@ import { Box, Text } from "@chakra-ui/react"
 
 export function SoftSkills() {
   return (
-    <Box>
+    <Box marginTop="5rem">
       <Box>
         <Text
           fontFamily="Inter"

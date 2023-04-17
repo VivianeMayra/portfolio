@@ -3,8 +3,8 @@ import { Header } from "./components/Header"
 import { Main } from "./components/Main"
 import { AboutMe } from "./components/AboutMe"
 import { Skills } from "./components/Skills"
-import { Projects } from "./components/Projects"
 import { SoftSkills } from "./components/SoftSkills"
+import { Projects } from "./components/Projects"
 
 export function App() {
   return (

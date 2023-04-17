@@ -1,4 +1,6 @@
 import { Box, SimpleGrid, Text } from "@chakra-ui/react"
+import { applications } from "../../Applications/applications"
+import { ProjectsCards } from "../ProjectsCards"
 
 export function Projects() {
   return (
@@ -13,47 +15,10 @@ export function Projects() {
       >
         Projetos
       </Text>
-      <SimpleGrid columns={[1, null, 3]} spacing={10}>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217, 217, 217, 0.11)"
-          height="150px"
-        ></Box>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217,217,217,0.11)"
-          height="150px"
-        ></Box>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217,217,217,0.11)"
-          height="150px"
-        ></Box>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217,217,217,0.11)"
-          height="150px"
-        ></Box>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217,217,217,0.11)"
-          height="150px"
-        ></Box>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217,217,217,0.11)"
-          height="150px"
-        ></Box>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217,217,217,0.11)"
-          height="150px"
-        ></Box>
-        <Box
-          borderRadius="10px"
-          bg="rgba(217,217,217,0.11)"
-          height="150px"
-        ></Box>
+      <SimpleGrid columns={[1, null, 3]} spacing={20}>
+        {applications.map((project) => (
+          <ProjectsCards key={project.id} project={project} />
+        ))}
       </SimpleGrid>
     </Box>
   )
