@@ -34,7 +34,10 @@ export function ProjectsCards({ project }: ProjectProps) {
     <Button onClick={onOpen} key={project.id} height="250px" padding={4}>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent
+          maxWidth={{ base: "80%" }}
+          textAlign={{ base: "center", md: "start" }}
+        >
           <ModalHeader>{project.name}</ModalHeader>
           <ModalCloseButton />
           <ModalBody display="flex" flexDirection="column">

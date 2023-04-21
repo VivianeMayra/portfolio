@@ -20,7 +20,7 @@ const customTheme = {
   styles: {
     global: {
       body: {
-        bg: "gray.500",
+        bgGradient: "linear(to-r, gray.300, yellow.400, pink.200)",
       },
     },
   },

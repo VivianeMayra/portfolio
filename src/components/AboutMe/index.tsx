@@ -6,7 +6,7 @@ export function AboutMe() {
       display="flex"
       flexDirection={{ base: "column", md: "row" }}
       alignItems="center"
-      marginTop="5rem"
+      marginTop="7rem"
       gap="100px"
       maxHeight="60%"
       id="aboutme"
@@ -21,14 +21,15 @@ export function AboutMe() {
         src="https://avatars.githubusercontent.com/u/76888841?v=4"
       />
 
-      <Box>
+      <Box textAlign={{ base: "center", md: "start" }}>
         <Text
           fontFamily="Inter"
           fontStyle="normal"
           fontWeight="700"
-          fontSize="45"
-          lineHeight="85px"
+          fontSize={40}
+          lineHeight={2}
           color="others.color-light"
+          textTransform="uppercase"
         >
           Sobre mim
         </Text>

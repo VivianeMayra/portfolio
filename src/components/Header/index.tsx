@@ -13,9 +13,9 @@ export function Header() {
           color="others.color-light"
           fontFamily="Inter"
           fontStyle="normal"
-          fontWeight="700"
-          fontSize="40px"
-          lineHeight="48px"
+          fontWeight="inherit"
+          fontSize={40}
+          lineHeight={2}
         >
           Viviane
         </Text>
@@ -23,9 +23,9 @@ export function Header() {
           color="others.purple-dark"
           fontFamily="Inter"
           fontStyle="normal"
-          fontWeight="700"
-          fontSize="40px"
-          lineHeight="48px"
+          fontWeight="inherit"
+          fontSize={40}
+          lineHeight={2}
         >
           Mayra
         </Text>
@@ -36,7 +36,7 @@ export function Header() {
         fontFamily="Inter"
         fontStyle="normal"
         fontWeight="700"
-        fontSize="20px"
+        fontSize="17px"
         lineHeight="25px"
         gap="12px"
       >

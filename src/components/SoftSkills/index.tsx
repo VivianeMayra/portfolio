@@ -8,19 +8,22 @@ export function SoftSkills() {
           fontFamily="Inter"
           fontStyle="normal"
           fontWeight="700"
-          fontSize="45"
-          lineHeight="85px"
+          fontSize={30}
+          lineHeight={1}
           color="others.color-light"
+          textAlign={{ base: "center", md: "start" }}
+          marginBottom={2}
         >
-          Se você chegou até aqui ...
+          Se você chegou até aqui...
         </Text>
         <Text
           fontFamily="Inter"
           fontStyle="normal"
-          fontWeight="700"
-          fontSize="40"
-          lineHeight="48.41px"
+          fontWeight="500"
+          fontSize={25}
+          lineHeight={1}
           color="others.color-light"
+          textAlign={{ base: "center", md: "start" }}
         >
           é um bom sinal e que busca saber mais sobre mim ^^
         </Text>
@@ -31,7 +34,15 @@ export function SoftSkills() {
         flexDirection={{ base: "column", md: "row" }}
         gap="3rem"
       >
-        <Box bg="rgba(217, 217, 217, 0.11)" padding="35px" borderRadius="10px">
+        <Box
+          bg="rgba(185, 184, 184, 0.411)"
+          padding="35px"
+          borderRadius="10px"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          justifyContent="center"
+        >
           <Text
             fontFamily="Inter"
             fontStyle="normal"
@@ -49,12 +60,21 @@ export function SoftSkills() {
             fontSize="15px"
             lineHeight="24px"
             color="others.color-light"
+            textAlign="center"
           >
             Tenho uma boa oratória e consigo me comunicar com excelência no meu
             ambiente de trabalho com colegas e superiores.
           </Text>
         </Box>
-        <Box bg="rgba(217, 217, 217, 0.11)" padding="35px" borderRadius="10px">
+        <Box
+          bg="rgba(185, 184, 184, 0.411)"
+          padding="35px"
+          borderRadius="10px"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          justifyContent="center"
+        >
           <Text
             fontFamily="Inter"
             fontStyle="normal"
@@ -72,13 +92,22 @@ export function SoftSkills() {
             fontSize="15px"
             lineHeight="24px"
             color="others.color-light"
+            textAlign="center"
           >
             Não importa o quê seja, sempre busco me focar na solução da
             problemática, investigando suas causas e achando a melhor resolução
             possível.
           </Text>
         </Box>
-        <Box bg="rgba(217, 217, 217, 0.11)" padding="35px" borderRadius="10px">
+        <Box
+          bg="rgba(185, 184, 184, 0.411)"
+          padding="35px"
+          borderRadius="10px"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          justifyContent="center"
+        >
           <Text
             fontFamily="Inter"
             fontStyle="normal"
@@ -96,6 +125,7 @@ export function SoftSkills() {
             fontSize="15px"
             lineHeight="24px"
             color="others.color-light"
+            textAlign="center"
           >
             Acredito que esse seja um dos maiores diferenciais de um dev para
             outro e com certeza essa é uma de minhas qualidades mais fortes.

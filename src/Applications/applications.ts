@@ -15,7 +15,7 @@ export const applications = [
     githubUrl: "https://github.com/VivianeMayra/dt-money",
     tags: ["TypeScript", "HTML", "Shell"],
     description:
-      "Fala rede! Queria compartilhar aplicação desenvolvida para ajudar outros usuários a terem um maior controle financeiro. Ela controla seus saques, transações e gastos!",
+      "Fala rede! Queria compartilhar essa aplicação desenvolvida para ajudar outros usuários a terem um maior controle financeiro. Ela controla seus saques, transações e gastos!",
   },
   {
     id: 3,

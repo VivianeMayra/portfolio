@@ -9,9 +9,12 @@ export function Projects() {
         fontFamily="Inter"
         fontStyle="normal"
         fontWeight="700"
-        fontSize="45"
-        lineHeight="85px"
+        fontSize={40}
+        lineHeight={2}
         color="others.color-light"
+        textTransform="uppercase"
+        textAlign={{ base: "center", md: "start" }}
+        marginBottom={3}
       >
         Projetos
       </Text>

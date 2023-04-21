@@ -5,43 +5,45 @@ export function Main() {
   return (
     <Box
       display="flex"
-      marginTop="2rem"
+      marginTop={{ base: "0", md: "4rem" }}
       flexDirection={{ base: "column", md: "row" }}
     >
       <Box maxWidth={{ base: "100%", md: "65%" }}>
         <Text
           fontFamily="Inter"
           fontStyle="normal"
-          fontWeight="700"
-          fontSize="65px"
-          lineHeight="85px"
+          fontWeight="800"
+          fontSize={{ base: "2.5rem", md: "3rem" }}
+          lineHeight={1.2}
           color="others.color-light"
+          textAlign={{ base: "center", md: "start" }}
         >
           Olá, me chamo Viviane. Uma Desenvolvedora Front-end{" "}
         </Text>
         <Box
           marginTop="2rem"
           display="flex"
-          gap="85px"
+          gap="30px"
+          justifyContent={{ base: "center", md: "start" }}
           marginBottom={{ base: "5rem", md: "0" }}
         >
           <Link
             href="https://www.linkedin.com/in/viviane-mayra-a87a49237/"
             isExternal
           >
-            <Button colorScheme="blue" padding="15px 40px">
+            <Button colorScheme="blue" padding="15px 25px">
               Linkedin
             </Button>
           </Link>
           <a href={curriculo} download="Curriculo" target="_blanck">
-            <Button colorScheme="blue" padding="15px 40px">
+            <Button colorScheme="blue" padding="15px 25px">
               Currículo
             </Button>
           </a>
         </Box>
       </Box>
       <Box
-        bg="rgba(217, 217, 217, 0.11)"
+        bg="rgba(185, 184, 184, 0.411)"
         w="100%"
         p={4}
         color="white"
